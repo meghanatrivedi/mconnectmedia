@@ -24,6 +24,7 @@
 		C71448A72832BD260073CCB9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448A62832BD260073CCB9 /* HomeVC.swift */; };
 		C71448AA2832BD500073CCB9 /* ReceiveHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448A92832BD500073CCB9 /* ReceiveHistoryVC.swift */; };
 		C71448AD2832C1040073CCB9 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448AC2832C1040073CCB9 /* ImagePickerManager.swift */; };
+		C7474A56283363E900645734 /* mconnectmedia in Resources */ = {isa = PBXBuildFile; fileRef = C7474A55283363E900645734 /* mconnectmedia */; };
 		D11889034AC73D6781A07DE0 /* Pods_mconnectmedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738219811234BCA9DCDB2773 /* Pods_mconnectmedia.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		C71448A62832BD260073CCB9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C71448A92832BD500073CCB9 /* ReceiveHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveHistoryVC.swift; sourceTree = "<group>"; };
 		C71448AC2832C1040073CCB9 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		C7474A55283363E900645734 /* mconnectmedia */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mconnectmedia; sourceTree = "<group>"; };
 		D06928C3F276DE8D428DDC5C /* Pods-mconnectmedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mconnectmedia.release.xcconfig"; path = "Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia.release.xcconfig"; sourceTree = "<group>"; };
 		D89D25CB08CEC96CD9F38145 /* Pods-mconnectmedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mconnectmedia.debug.xcconfig"; path = "Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				C71448732832929F0073CCB9 /* mconnectmedia */,
+				C7474A55283363E900645734 /* mconnectmedia */,
 				C71448722832929F0073CCB9 /* Products */,
 				F88B7798EC5240DD239DBC8E /* Pods */,
 				E4BE2FCCEEC9822BCF5D717E /* Frameworks */,
@@ -187,6 +190,7 @@
 				C71448A42832B1940073CCB9 /* HistoryTableViewCell.xib in Resources */,
 				C7144881283292A00073CCB9 /* Assets.xcassets in Resources */,
 				C714487C2832929F0073CCB9 /* Main.storyboard in Resources */,
+				C7474A56283363E900645734 /* mconnectmedia in Resources */,
 				C714489F2832AEFC0073CCB9 /* ImageCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
