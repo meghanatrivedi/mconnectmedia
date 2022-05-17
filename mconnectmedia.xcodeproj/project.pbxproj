@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,21 @@
 		C714487F2832929F0073CCB9 /* mconnectmedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C714487D2832929F0073CCB9 /* mconnectmedia.xcdatamodeld */; };
 		C7144881283292A00073CCB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7144880283292A00073CCB9 /* Assets.xcassets */; };
 		C7144884283292A00073CCB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7144882283292A00073CCB9 /* LaunchScreen.storyboard */; };
+		C714488D283295D10073CCB9 /* RegistationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714488C283295D10073CCB9 /* RegistationVC.swift */; };
+		C7144890283295F10073CCB9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714488F283295F10073CCB9 /* LoginVC.swift */; };
+		C714489328329DC20073CCB9 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714489228329DC20073CCB9 /* Validation.swift */; };
+		C714489E2832AEFC0073CCB9 /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714489C2832AEFC0073CCB9 /* ImageCollectionCell.swift */; };
+		C714489F2832AEFC0073CCB9 /* ImageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C714489D2832AEFC0073CCB9 /* ImageCollectionCell.xib */; };
+		C71448A32832B1940073CCB9 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448A12832B1940073CCB9 /* HistoryTableViewCell.swift */; };
+		C71448A42832B1940073CCB9 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71448A22832B1940073CCB9 /* HistoryTableViewCell.xib */; };
+		C71448A72832BD260073CCB9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448A62832BD260073CCB9 /* HomeVC.swift */; };
+		C71448AA2832BD500073CCB9 /* ReceiveHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448A92832BD500073CCB9 /* ReceiveHistoryVC.swift */; };
+		C71448AD2832C1040073CCB9 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71448AC2832C1040073CCB9 /* ImagePickerManager.swift */; };
+		D11889034AC73D6781A07DE0 /* Pods_mconnectmedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738219811234BCA9DCDB2773 /* Pods_mconnectmedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		738219811234BCA9DCDB2773 /* Pods_mconnectmedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mconnectmedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71448712832929F0073CCB9 /* mconnectmedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mconnectmedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71448742832929F0073CCB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C71448762832929F0073CCB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,18 @@
 		C7144880283292A00073CCB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7144883283292A00073CCB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7144885283292A00073CCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C714488C283295D10073CCB9 /* RegistationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistationVC.swift; sourceTree = "<group>"; };
+		C714488F283295F10073CCB9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C714489228329DC20073CCB9 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		C714489C2832AEFC0073CCB9 /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		C714489D2832AEFC0073CCB9 /* ImageCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionCell.xib; sourceTree = "<group>"; };
+		C71448A12832B1940073CCB9 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C71448A22832B1940073CCB9 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		C71448A62832BD260073CCB9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C71448A92832BD500073CCB9 /* ReceiveHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveHistoryVC.swift; sourceTree = "<group>"; };
+		C71448AC2832C1040073CCB9 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		D06928C3F276DE8D428DDC5C /* Pods-mconnectmedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mconnectmedia.release.xcconfig"; path = "Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia.release.xcconfig"; sourceTree = "<group>"; };
+		D89D25CB08CEC96CD9F38145 /* Pods-mconnectmedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mconnectmedia.debug.xcconfig"; path = "Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11889034AC73D6781A07DE0 /* Pods_mconnectmedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				C71448732832929F0073CCB9 /* mconnectmedia */,
 				C71448722832929F0073CCB9 /* Products */,
+				F88B7798EC5240DD239DBC8E /* Pods */,
+				E4BE2FCCEEC9822BCF5D717E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +93,35 @@
 				C7144882283292A00073CCB9 /* LaunchScreen.storyboard */,
 				C7144885283292A00073CCB9 /* Info.plist */,
 				C714487D2832929F0073CCB9 /* mconnectmedia.xcdatamodeld */,
+				C714488C283295D10073CCB9 /* RegistationVC.swift */,
+				C714488F283295F10073CCB9 /* LoginVC.swift */,
+				C714489228329DC20073CCB9 /* Validation.swift */,
+				C714489C2832AEFC0073CCB9 /* ImageCollectionCell.swift */,
+				C714489D2832AEFC0073CCB9 /* ImageCollectionCell.xib */,
+				C71448A12832B1940073CCB9 /* HistoryTableViewCell.swift */,
+				C71448A22832B1940073CCB9 /* HistoryTableViewCell.xib */,
+				C71448A62832BD260073CCB9 /* HomeVC.swift */,
+				C71448A92832BD500073CCB9 /* ReceiveHistoryVC.swift */,
+				C71448AC2832C1040073CCB9 /* ImagePickerManager.swift */,
 			);
 			path = mconnectmedia;
+			sourceTree = "<group>";
+		};
+		E4BE2FCCEEC9822BCF5D717E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738219811234BCA9DCDB2773 /* Pods_mconnectmedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88B7798EC5240DD239DBC8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D89D25CB08CEC96CD9F38145 /* Pods-mconnectmedia.debug.xcconfig */,
+				D06928C3F276DE8D428DDC5C /* Pods-mconnectmedia.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7144888283292A00073CCB9 /* Build configuration list for PBXNativeTarget "mconnectmedia" */;
 			buildPhases = (
+				D11DAB49D696CD93C56B395E /* [CP] Check Pods Manifest.lock */,
 				C714486D2832929F0073CCB9 /* Sources */,
 				C714486E2832929F0073CCB9 /* Frameworks */,
 				C714486F2832929F0073CCB9 /* Resources */,
+				46F5A9DD85390A83363CFF48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +184,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7144884283292A00073CCB9 /* LaunchScreen.storyboard in Resources */,
+				C71448A42832B1940073CCB9 /* HistoryTableViewCell.xib in Resources */,
 				C7144881283292A00073CCB9 /* Assets.xcassets in Resources */,
 				C714487C2832929F0073CCB9 /* Main.storyboard in Resources */,
+				C714489F2832AEFC0073CCB9 /* ImageCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46F5A9DD85390A83363CFF48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mconnectmedia/Pods-mconnectmedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11DAB49D696CD93C56B395E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mconnectmedia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C714486D2832929F0073CCB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71448A32832B1940073CCB9 /* HistoryTableViewCell.swift in Sources */,
+				C71448A72832BD260073CCB9 /* HomeVC.swift in Sources */,
+				C714488D283295D10073CCB9 /* RegistationVC.swift in Sources */,
 				C71448792832929F0073CCB9 /* ViewController.swift in Sources */,
+				C7144890283295F10073CCB9 /* LoginVC.swift in Sources */,
+				C714489E2832AEFC0073CCB9 /* ImageCollectionCell.swift in Sources */,
 				C714487F2832929F0073CCB9 /* mconnectmedia.xcdatamodeld in Sources */,
 				C71448752832929F0073CCB9 /* AppDelegate.swift in Sources */,
+				C71448AA2832BD500073CCB9 /* ReceiveHistoryVC.swift in Sources */,
 				C71448772832929F0073CCB9 /* SceneDelegate.swift in Sources */,
+				C714489328329DC20073CCB9 /* Validation.swift in Sources */,
+				C71448AD2832C1040073CCB9 /* ImagePickerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +395,7 @@
 		};
 		C7144889283292A00073CCB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89D25CB08CEC96CD9F38145 /* Pods-mconnectmedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +414,7 @@
 		};
 		C714488A283292A00073CCB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06928C3F276DE8D428DDC5C /* Pods-mconnectmedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

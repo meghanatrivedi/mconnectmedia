@@ -1,0 +1,6 @@
+framework module Pods_mconnectmedia {
+  umbrella header "Pods-mconnectmedia-umbrella.h"
+
+  export *
+  module * { export * }
+}
